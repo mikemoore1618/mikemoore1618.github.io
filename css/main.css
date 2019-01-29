@@ -1,10 +1,13 @@
 html{
-  background-color:rgb(7, 8, 11);
+  overflow: hidden;
+    height: 100%;
 }
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  line-height: 1.5;
+  line-height: 2;
+  height: 100%;
+    overflow: auto;
 }
 img {
   width: 100%;
@@ -16,31 +19,59 @@ img {
   height: auto;
 }
 #nav {
-  background-color:rgb(7, 8, 11);
-  color: white;
+  background-color:rgb(255, 255, 255);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 2;
 }
-#about{
-  height: 100vh;
+#nav-logo{
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+}
+.nav-link{
+  float: right;
+  color: black;
+}
+#header{
+  height: 87vh;
+}
+#index-wrapper{
+  background-color: rgb(255, 255, 255);
+}
+#header-wrapper{
+  background-color: rgb(97, 225, 144);
+}
+.icon{
+  width: 70px;
 }
 #about-wrapper{
   background-color: rgb(255, 255, 255);
 }
 #tech-wrapper{
-  background-color: rgb(43, 226, 134);
+  background-color:  rgb(97, 225, 144);
 }
-#project-1-wrapper{
-  background-color: rgb(226, 43, 128);
+/* #portfolio{
+  background-color: rgb(255, 255, 255);
+} */
+.project{
+  color: black;
 }
-#project-2-wrapper{
-  background-color: rgb(226, 208, 43);
+.hover:hover{
+  opacity: .65;
 }
-#project-3-wrapper{
-  background-color: rgb(43, 70, 226);
-}
-#project-4-wrapper{
-  background-color: rgb(226, 86, 43);
-}
-#footer-wrapper{
-  background-color:rgb(7, 8, 11);
+#contact-wrapper{
+  background-color:rgb(11, 14, 18);
   color: white;
+}
+.footer-icon{
+  width: 50px;
+}
+#github-white{
+  opacity: .9;
+}
+#github-white:hover{
+  opacity: .65;
 }
