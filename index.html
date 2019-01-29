@@ -9,226 +9,119 @@
   <!--Import local stylesheet-->
   <link rel="stylesheet" href="css/main.css">
   <title>Michael Moore</title>
-  
-  <!--Import Semantic UI-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.9/semantic.min.css" />
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.9/semantic.min.js"></script>
+
+  <!--Import tachyons.io-->
+  <link rel="stylesheet" href="https://unpkg.com/tachyons@4/css/tachyons.min.css">
+  <!--Import Google Font-->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+
 </head>
 
 <body>
-  <header>
-    <nav class="ph4 w-100 nav-bg">
-      <div class="mobile">
-        <a class="hamburger open">
-          <span class="hamburger-patty"></span>
-        </a>
-      </div>
-      <div id="logo-fade" class="dib logo-banner mt4 mt4-m mt3-l">
-        <a href="https://emotion-ai-staging-website.herokuapp.com/">
-          <img class="nav-logo" src="images/emotion.ai-nav-word-logo-red.png">
-          <img class="nav-logo" src="images/emotion.ai-nav-word-logo-blue.png">
-          <img class="nav-logo" src="images/emotion.ai-nav-word-logo-yellow.png">
-        </a>
-      </div>
-      <div class="nav mt3 f6 f5-ns v-mid tr">
-
-        <div class="desktop-nav">
-          <a class="link dim black mr3" href="https://emotion.ai/">Home</a>
-          <a class="link dim black mr3" href="https://www.meetup.com/emotion-ai/">Meetup</a>
-          <!-- <a class="link dim black mr3" href="https://emotion-ai-staging-website.herokuapp.com/public/media.html">Collaborate</a> -->
-          <a class="link dim black mr3" href="https://medium.com/emotion-ai">Blog</a>
-          <a class="link dim black mr3" href="https://emotion-ai-staging-website.herokuapp.com/public/experiments.html">Experiments</a>
-          <a class="link dim black mr3" href="https://emotion-ai-staging-website.herokuapp.com/public/media.html">Media</a>
-          <a class="contact-trigger pointer link dim black">Contact</a>
-        </div>
-
-        <div class="mobile-nav dn">
-          <a class="nav-link toggle-mr3 link dim black mr3" href="https://emotion.ai">Home</a>
-          <a class="nav-link toggle-mr3 link dim black mr3" href="https://www.meetup.com/emotion-ai/">Meetup</a>
-          <!-- <a class="nav-link toggle-mr3 link dim black mr3" href="https://emotion-ai-staging-website.herokuapp.com/public/media.html">Collaborate</a> -->
-          <a class="nav-link toggle-mr3 link dim black mr3" href="https://medium.com/emotion-ai">Blog</a>
-          <a class="nav-link toggle-mr3 link dim black mr3" href="https://emotion-ai-staging-website.herokuapp.com/public/experiments.html">Experiments</a>
-          <a class="nav-link toggle-mr3 link dim black mr3" href="https://emotion-ai-staging-website.herokuapp.com/public/media.html">Media</a>
-          <a class="contact-trigger nav-link link dim black">Contact</a>
-        </div>
-
-      </div>
-    </nav>
-  </header>
-  <h1>Hello World!</h1>
-    <!--<div class="ui text menu">
-        
-        <a class="item home-btn">
-          Home
-        </a>
-        <a class="item">
-            About
-          </a>
-        <a class="item">
-          Portfolio
-        </a>
-        <a class="item">
-          Contact
-        </a>
-      </div> -->
-      
-
+  <nav id="nav">
+    <h2>mikemoo.re</h2>
+    <a>Home</a>
+    <a>About</a>
+    <a>Portfolio</a>
+    <a>Contact</a>
+  </nav>
   <!-- --------------------------------------------------------------------------------------------- -->
-  <div class="parallax">
+  <!-- --------------------------------------------------------------------------------------------- -->
+  <div id="index-wrapper" class="center tc">
+    <div id="about-wrapper" class="w-100">
+      <div id="about" class="section w-80 w-50-ns">
+        <h1 class="pt7">Mike Moore</h1>
+        <p>fix this paragrpah vvv just talk about myself and my interests and who i am and what i bring to the table</p>
+        <p>Im a software developer and graphic designer working primarily in Ruby and ReactJS. Ive spemnt most of my
+          life as a woodworker where i have learned how to be extremely detail oriented and how to be “on” all the
+          time. Currently, I’m working as a freelance and contract web developer and graphic designer.</p>
+        <!-- <i class="github icon huge link"></i>
+        <i class="gitlab icon huge link orange"></i>
+        <i class="linkedin icon huge link blue"></i> -->
+      </div>
+    </div>
+    <!-- --------------------------------------------------------------------------------------------- -->
+    <div id="tech-wrapper" class="w-100">
+      <div id="tech" class="section w-80 w-50-ns pv5">
+        <h3>Langauges</h3>
+        <p>HTML | CSS | Javascript | Ruby</p>
 
-    <div id="group1" class="parallax__group">
-      <div class="parallax__layer parallax__layer--base">
-        <div class="centre">
-          <h1>Mike Moore</h1>
-          <h1>Web Developer</h1>
-        </div>
-      </div>
-      <div class="parallax__layer parallax__layer--back">
-        <div class="centre"></div>
-      </div>
-    </div>
-    <!-- --------------------------------------------------------------------------------------------- -->
-    <div id="group2" class="parallax__group">
-      <div class="parallax__layer parallax__layer--base">
-        <div class="centre">
-          <h2>About Me</h2>
-          <p>Im a software developer and graphic designer working primarily in Ruby and ReactJS. I used to be
-            a carpenter, which taught me how to be extremely detail oriented and how to be “on” all the
-            time.
-            Currently, I’m working as a freelance and contract web developerand graphic designer.</p>
+        <h3>Libraries & Frameworks</h3>
+        <p>jQuery | Rails | Node | Express | React | Socket.io |
+        </p>
 
-          <i class="github icon huge link"></i>
-          <i class="gitlab icon huge link orange"></i>
-          <i class="linkedin icon huge link blue"></i>
-        </div>
-      </div>
-    </div>
-    <!-- --------------------------------------------------------------------------------------------- -->
-    <div id="group3" class="parallax__group">
-      <div class="parallax__layer parallax__layer--base">
-        <div class="centre tech">
-          <div>
-            <h3>Langauges</h3>
-            <p>HTML<i class="html5 icon"></i> | CSS<i class="css3 alternate icon"></i> | Javascript<i class="js icon"></i> | Ruby<i class="gem outline icon"></i></p>
-          </div>
-          <br />
-          <div>
-            <h3>Libraries & Frameworks</h3>
-            <p>jQuery | Rails | Node<i class="node js icon"></i> | Express | React<i class="react icon"></i>| Socket.io |
-            </p>
-          </div>
-          <br />
-          <div>
-            <h3>Databases</h3>
-            <p>PostgreSQL | MongoDB</p>
-          </div>
-          <br />
-          <div>
-            <h3>Software</h3>
-            <p>Adobe Illustrator | Adobe Photoshop | Adobe InDesign | Google Sketchup</p>
-          </div>
-        </div>
-      </div>
-      <div class="parallax__layer parallax__layer--back">
-        <div class="centre"></div>
-      </div>
-    </div>
+        <h3>Databases</h3>
+        <p>PostgreSQL | MongoDB</p>
 
-    <!-- --------------------------------------------------------------------------------------------- -->
-    <div id="group4" class="parallax__group">
-      <div class="parallax__layer parallax__layer--base">
-        <div class="centre">
-          <div>
-            <h2>Portfolio</h2>
-           <h2>Pong</h2>
-            <h4>JavaScript | HTML | CSS | jQuery</h4>
-            <img class="portfolio-imgs" src="https://i.imgur.com/p1k3Fwj.png">
-            <p>
-              My rendition of Pong, one of the earliest arcade video games. It is a table tennis sports game featuring simple two-dimensional graphics. The game was originally manufactured by Atari, which released it in 1972. Allan Alcorn created Pong as a training exercise assigned to him by Atari co-founder Nolan Bushnel</p>
-            <a href="https://mikemoore1618.github.io/project-1-game-pong/">Try it here!</a>|
-            <a href="https://github.com/mikemoore1618/project-1-game-pong">Check out the code!</a>
-          </div>
-        </div> 
-      </div>
-    </div>
-    <!---------------------------------------------------------------------------------------------- -->
-    <div id="group4" class="parallax__group">
-      <div class="parallax__layer parallax__layer--base">
-        <div class="centre">
-          <div>
-
-            <h2>Spotify Go!</h2>
-            <h4>Ruby on Rails | PostgreSQL | HTML | CSS</h4>
-            <img class="portfolio-imgs" src="https://i.imgur.com/maRgIOb.png">
-            <p>Think Spotify meets Instagram: This app makes it easy to share and explore your favorite music with your friends! Sign in, post music, find your freinds, sort your music feed by most recent, alphabetical, or random!</p>
-            <a href="https://peaceful-sea-29225.herokuapp.com/">Try it here!</a>|
-            <a href="https://github.com/needimf/CampShare">Check out the code!</a>
-          </div>
-        </div>
+        <h3>Software</h3>
+        <p>Adobe Illustrator | Adobe Photoshop | Adobe InDesign | Google Sketchup</p>
       </div>
     </div>
     <!-- --------------------------------------------------------------------------------------------- -->
-    <div id="group4" class="parallax__group">
-      <div class="parallax__layer parallax__layer--base">
-        <div class="centre">
-          <div>
-            <h2>Red Rover</h2>
-            <h4>JavaScript | Node.js | Express | MongoDB/Mongoose</h4>
-            <img class="portfolio-imgs" src="https://i.imgur.com/3lh23mo.png">
-            <p>Elon Musk's robots have gained consciousness and are spreading across the Solar System. Mars has emerged
-              as the next <em>HOT</em>robot vacation destination- But where do you go? How can you sift through the
-              endless pages of useless travel sites? Look no further! Red Rover is the one-stop-shop for Robots like you! Log in, search, explore, and even
-              chat with other live robots!</p>
-            <a href="https://lets--fly.herokuapp.com/">Try it here!</a>|
-            <a href="https://github.com/chetskii/red-rover">Check out the code!</a>
-
-          </div>
-        </div>
+    <div id="project-1-wrapper" class="w-100">
+      <div id="project-1" class="section w-80 w-50-ns pv5">
+        <h2>Pong</h2>
+        <h4>JavaScript | HTML | CSS | jQuery</h4>
+        <img src="https://i.imgur.com/p1k3Fwj.png">
+        <p>
+          My rendition of Pong, one of the earliest arcade video games. It is a table tennis sports game featuring
+          simple two-dimensional graphics. The game was originally manufactured by Atari, which released it in 1972.
+          Allan Alcorn created Pong as a training exercise assigned to him by Atari co-founder Nolan Bushnel</p>
+        <a href="https://mikemoore1618.github.io/project-1-game-pong/">Try it here!</a>|
+        <a href="https://github.com/mikemoore1618/project-1-game-pong">Check out the code!</a>
       </div>
     </div>
     <!-- --------------------------------------------------------------------------------------------- -->
-    <div id="group4" class="parallax__group">
-      <div class="parallax__layer parallax__layer--base">
-        <div class="centre">
-          <div>
-            <h2>Data Tracker</h2>
-            <h4>React | JavaScript | Node.js | Socket.io | Express | MongoDB/Mongoose</h4>
-            <img class="portfolio-imgs" src="https://i.imgur.com/J9DIn9J.png">
-            <p>Havent been sleeping well? Maybe its because youve been eating pizza before bed. Been in the best mood
-              of your life this week? Mybe it's because you've been doing yoga every morning! Track all of your daily
-              habits to see correlations between them!</p>
-            <a href="https://gentle-stream-96140.herokuapp.com/">Try it here!</a>|
-            <a href="https://github.com/mikemoore1618/p4_react_app_data_tracker">Check out the
-              code!</a>
-          </div>
-        </div>
+    <div id="project-2-wrapper" class="w-100">
+      <div id="project-2" class="section w-80 w-50-ns pv5">
+        <h2>Spotify Go!</h2>
+        <h4>Ruby on Rails | PostgreSQL | HTML | CSS</h4>
+        <img src="https://i.imgur.com/maRgIOb.png">
+        <p>Think Spotify meets Instagram: This app makes it easy to share and explore your favorite music with your
+          friends! Sign in, post music, find your freinds, sort your music feed by most recent, alphabetical, or
+          random!</p>
+        <a href="https://peaceful-sea-29225.herokuapp.com/">Try it here!</a>|
+        <a href="https://github.com/needimf/CampShare">Check out the code!</a>
       </div>
     </div>
     <!-- --------------------------------------------------------------------------------------------- -->
-    <div id="group5" class="parallax__group">
-      <div class="parallax__layer parallax__layer--back">
-        <div class="centre">
-        </div>
-      </div>
-      <div class="parallax__layer parallax__layer--base">
-        <div class="centre">
-          <h1>Contact</h1>
-        </div>
-      </div>
-    </div>
-    <!-- --------------------------------------------------------------------------------------------- -->
-    <div id="group4" class="parallax__group_footer">
-      <div class="parallax__layer parallax__layer--base">
-        <div class="centre">
-          <h2>Footer</h2>
-        </div>
+    <div id="project-3-wrapper" class="w-100">
+      <div id="project-3" class="section w-80 w-50-ns pv5">
+        <h2>Red Rover</h2>
+        <h4>JavaScript | Node.js | Express | MongoDB/Mongoose</h4>
+        <img src="https://i.imgur.com/3lh23mo.png">
+        <p>Elon Musk's robots have gained consciousness and are spreading across the Solar System. Mars has emerged as
+          the next <em>HOT</em>robot vacation destination- But where do you go? How can you sift through the endless
+          pages of useless travel sites? Look no further! Red Rover is the one-stop-shop for Robots like you! Log in,
+          search, explore, and even chat with other live robots!</p>
+        <a href="https://lets--fly.herokuapp.com/">Try it here!</a>|
+        <a href="https://github.com/chetskii/red-rover">Check out the code!</a>
       </div>
     </div>
     <!-- --------------------------------------------------------------------------------------------- -->
-
-    <!-- Scripts-->
-    <script src="js/main.js"></script>
+    <div id="project-4-wrapper" class="w-100">
+      <div id="project-4" class="section w-80 w-50-ns pv5">
+        <h2>Data Tracker</h2>
+        <h4>React | JavaScript | Node.js | Socket.io | Express | MongoDB/Mongoose</h4>
+        <img src="https://i.imgur.com/J9DIn9J.png">
+        <p>Havent been sleeping well? Maybe its because youve been eating pizza before bed. Been in the best mood
+          of your life this week? Mybe it's because you've been doing yoga every morning! Track all of your daily
+          habits to see correlations between them!</p>
+        <a href="https://gentle-stream-96140.herokuapp.com/">Try it here!</a>|
+        <a href="https://github.com/mikemoore1618/p4_react_app_data_tracker">Check out the
+          code!</a>
+      </div>
+    </div>
+    <!-- --------------------------------------------------------------------------------------------- -->
+    <div id="footer-wrapper" class="w-100">
+      <footer id="footer" class="section w-80 w-50-ns pv5">
+        <h2>Contact</h2>
+      </footer>
+    </div>
+  </div>
+  <!-- --------------------------------------------------------------------------------------------- -->
+  <!-- Scripts-->
+  <script src="js/main.js"></script>
 
 </body>
 
