@@ -7,7 +7,10 @@ body {
   font-weight: 300;
   line-height: 2;
   height: 100%;
-    overflow: auto;
+  overflow: auto;
+}
+p{
+  font-size: 1.15rem;
 }
 img {
   width: 100%;
@@ -53,9 +56,6 @@ a {
 #tech-wrapper{
   background-color:  rgb(97, 225, 144);
 }
-/* #portfolio{
-  background-color: rgb(255, 255, 255);
-} */
 .project{
   color: black;
 }
