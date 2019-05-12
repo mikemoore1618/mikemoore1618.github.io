@@ -31,21 +31,26 @@ img {
 #nav-logo{
   display: inline-block;
 }
-a {
+a{
   text-decoration: none;
 }
 .nav-link{
   float: right;
   color: black;
 }
-#header{
-  height: 87vh;
+#header-bg {
+  width: 100vw;
+  height: 100vh;
+  }
+#header-content{
+ margin-top: -100vh;
+  position :relative;
+}
+#header-wrapper{
+  background-color:  rgb(97, 225, 144);
 }
 #index-wrapper{
   background-color: rgb(255, 255, 255);
-}
-#header-wrapper{
-  background-color: rgb(97, 225, 144);
 }
 .icon{
   width: 70px;
@@ -55,6 +60,15 @@ a {
 }
 #tech-wrapper{
   background-color:  rgb(97, 225, 144);
+}
+#tech-bg {
+    width: 100%;
+    height: 100vh;
+    }
+#tech-content {
+  margin-top: -100vh;
+  z-index: 10;
+  position :relative;
 }
 .project{
   color: black;
