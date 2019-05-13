@@ -86,6 +86,9 @@ a{
 #github-white:hover{
   opacity: .65;
 }
+#about{
+  top:100vh;
+}
 
 
 
