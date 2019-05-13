@@ -53,11 +53,14 @@ a{
 .icon{
   width: 70px;
 }
+#header-bg{
+  padding-top: 4em;
+}
 #about-wrapper{
   background-color: rgb(255, 255, 255);
 }
 #tech-content {
-  top: 150vh;
+  top: 169vh;
   position :absolute;
   margin-left: auto;
   margin-right: auto;
@@ -83,11 +86,38 @@ a{
 #github-white:hover{
   opacity: .65;
 }
+
+
+
 /* Desktop */
 .video-bg {
-  height: 90vh;
+  height: 100vh;
 }
-/* #header-content {
-  padding:
-} */
+/* Mobile*/
+@media only screen and (max-width: 411px) {
+  .video-bg {
+    height: 90vh;
+  }
+  #tech-content {
+    top: 177vh;
+  }
+}
+/* Iphone 5*/
+@media only screen and (max-width: 320px) {
+  .video-bg {
+    height: 90vh;
+  }
+  #tech-content {
+    top: 195vh;
+  }
+}
+/* Tablet */
+@media only screen and (max-width: 768px) {
+  .video-bg {
+    height: 90vh;
+  }
+  #tech-content {
+    top: 155vh;
+  }
+}
 
