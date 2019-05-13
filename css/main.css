@@ -1,13 +1,13 @@
 html{
-  overflow: hidden;
-    height: 100%;
+      max-width: 100%;
+      overflow-x: hidden;
 }
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   line-height: 2;
-  height: 100%;
-  overflow: auto;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 p{
   font-size: 1.15rem;
@@ -38,16 +38,14 @@ a{
   float: right;
   color: black;
 }
-#header-bg {
-  width: 100vw;
-  height: 100vh;
-  }
+
 #header-content{
- margin-top: -100vh;
-  position :relative;
-}
-#header-wrapper{
-  background-color:  rgb(97, 225, 144);
+  top: 2%;
+  position:absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
 }
 #index-wrapper{
   background-color: rgb(255, 255, 255);
@@ -58,17 +56,13 @@ a{
 #about-wrapper{
   background-color: rgb(255, 255, 255);
 }
-#tech-wrapper{
-  background-color:  rgb(97, 225, 144);
-}
-#tech-bg {
-    width: 100%;
-    height: 100vh;
-    }
 #tech-content {
-  margin-top: -100vh;
-  z-index: 10;
-  position :relative;
+  top: 150vh;
+  position :absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
 }
 .project{
   color: black;
@@ -89,3 +83,11 @@ a{
 #github-white:hover{
   opacity: .65;
 }
+/* Desktop */
+.video-bg {
+  height: 90vh;
+}
+/* #header-content {
+  padding:
+} */
+
