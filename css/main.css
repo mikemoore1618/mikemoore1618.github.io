@@ -97,15 +97,7 @@ a{
   height: 100vh;
 }
 /* Mobile*/
-@media only screen and (max-width: 375px) {
-  .video-bg {
-    height: 90vh;
-  }
-  #tech-content {
-    top: 177vh;
-  }
-}
-@media only screen and (max-width: 360px) {
+@media only screen and (min-width: 321px) and (max-width: 411px) {
   .video-bg {
     height: 90vh;
   }
@@ -123,7 +115,7 @@ a{
   }
 }
 /* Tablet */
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 412px) and (max-width: 768px) {
   .video-bg {
     height: 90vh;
   }
