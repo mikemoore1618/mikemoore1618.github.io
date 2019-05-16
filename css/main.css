@@ -97,6 +97,14 @@ a{
   height: 100vh;
 }
 /* Mobile*/
+@media only screen and (max-width: 375px) {
+  .video-bg {
+    height: 90vh;
+  }
+  #tech-content {
+    top: 177vh;
+  }
+}
 @media only screen and (max-width: 360px) {
   .video-bg {
     height: 90vh;
