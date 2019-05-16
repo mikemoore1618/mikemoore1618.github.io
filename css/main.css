@@ -104,6 +104,9 @@ a{
   #tech-content {
     top: 177vh;
   }
+  .footer-icon{
+    width: 40px;
+  }
 }
 /* Iphone 5*/
 @media only screen and (max-width: 320px) {
@@ -112,6 +115,9 @@ a{
   }
   #tech-content {
     top: 195vh;
+  }
+  .footer-icon{
+    width: 40px;
   }
 }
 /* Tablet */
